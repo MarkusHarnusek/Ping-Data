@@ -4,6 +4,23 @@
              xmlns:local="clr-namespace:PingData"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        
+        <!-- App-wide color resources -->
+
+        <SolidColorBrush
+            x:Key="Background"
+            Color="#373739"/>
+
+        <SolidColorBrush
+            x:Key="Primary"
+            Color="#CBCBCB"/>
+
+        <SolidColorBrush
+            x:Key="Accent"
+            Color="#90D5FF"/>
+
+        <SolidColorBrush
+            x:Key="TextPrimary"
+            Color="#F5F5F5"/>
     </Application.Resources>
 </Application>
