@@ -3,6 +3,6 @@ bin
 obj
 CommitMessage.txt
 log.txt
-PalettePicker.csproj.user
-PalettePicker.sln
+*.user
+*.sln
 README.md
