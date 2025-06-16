@@ -98,8 +98,9 @@
 
 					<TextBox
 						x:Name="Txb_Url"
+                        LostFocus="Txb_Url_LostFocus"
 						Style="{StaticResource TextBox_Style}"
-						Width="185" LostFocus="Txb_Url_LostFocus"/>
+						Width="185"/> 
 
 					<TextBlock
 						Text="Url"
@@ -151,6 +152,8 @@
 						Margin="5">
 		
 						<TextBox
+                            x:Name="Txb_Frequency"
+							LostFocus="Txb_Frequency_LostFocus"
 							Style="{StaticResource TextBox_Style}"/>
 		
 						<TextBlock
@@ -180,7 +183,7 @@
 						<TextBlock
 							Text="Average From"
 							Height="12"
-							Width="70"
+							Width="72"
 							FontSize="10"
 							FontWeight="Light"
 							FontFamily="Montserrat"
@@ -189,7 +192,7 @@
 							Background="{DynamicResource Background}"
 							VerticalAlignment="Top"
 							HorizontalAlignment="Left"
-							Margin="10,-7.5,0,0"/>
+							Margin="9,-7.5,0,0"/>
 					</Grid>
 
 					<Grid
